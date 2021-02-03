@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 2121944155,
-        "Kind": "Components.Component",
-        "Name": "web_tic_tac_toe_game.App",
-        "AssemblyName": "web-tic-tac-toe-game",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "web_tic_tac_toe_game.App"
-        }
-      },
-      {
-        "HashCode": 1402975527,
-        "Kind": "Components.Component",
-        "Name": "web_tic_tac_toe_game.App",
-        "AssemblyName": "web-tic-tac-toe-game",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "web_tic_tac_toe_game.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "web_tic_tac_toe_game.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1560428817,
         "Kind": "Components.Component",
         "Name": "web_tic_tac_toe_game.Pages.Counter",
@@ -193,6 +160,229 @@
         }
       },
       {
+        "HashCode": 291095344,
+        "Kind": "Components.Component",
+        "Name": "web_tic_tac_toe_game.Shared.Cell",
+        "AssemblyName": "web-tic-tac-toe-game",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Cell"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Spot",
+            "TypeName": "System.Char",
+            "Metadata": {
+              "Common.PropertyName": "Spot"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CurrentGame",
+            "TypeName": "Game",
+            "Metadata": {
+              "Common.PropertyName": "CurrentGame"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Loc",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Loc"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UpdateGame",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "UpdateGame",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "web_tic_tac_toe_game.Shared.Cell"
+        }
+      },
+      {
+        "HashCode": 1116209368,
+        "Kind": "Components.Component",
+        "Name": "web_tic_tac_toe_game.Shared.Cell",
+        "AssemblyName": "web-tic-tac-toe-game",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "web_tic_tac_toe_game.Shared.Cell"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Spot",
+            "TypeName": "System.Char",
+            "Metadata": {
+              "Common.PropertyName": "Spot"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CurrentGame",
+            "TypeName": "Game",
+            "Metadata": {
+              "Common.PropertyName": "CurrentGame"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Loc",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Loc"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UpdateGame",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "UpdateGame",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "web_tic_tac_toe_game.Shared.Cell",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 593655748,
+        "Kind": "Components.Component",
+        "Name": "web_tic_tac_toe_game.Shared.Board",
+        "AssemblyName": "web-tic-tac-toe-game",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Board"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "CurrentGame",
+            "TypeName": "Game",
+            "Metadata": {
+              "Common.PropertyName": "CurrentGame"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UpdateGame",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "UpdateGame",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "web_tic_tac_toe_game.Shared.Board"
+        }
+      },
+      {
+        "HashCode": 1048134884,
+        "Kind": "Components.Component",
+        "Name": "web_tic_tac_toe_game.Shared.Board",
+        "AssemblyName": "web-tic-tac-toe-game",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "web_tic_tac_toe_game.Shared.Board"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "CurrentGame",
+            "TypeName": "Game",
+            "Metadata": {
+              "Common.PropertyName": "CurrentGame"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UpdateGame",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "UpdateGame",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "web_tic_tac_toe_game.Shared.Board",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1502981434,
+        "Kind": "Components.Component",
+        "Name": "web_tic_tac_toe_game.Shared.NavMenu",
+        "AssemblyName": "web-tic-tac-toe-game",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "web_tic_tac_toe_game.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 158049165,
+        "Kind": "Components.Component",
+        "Name": "web_tic_tac_toe_game.Shared.NavMenu",
+        "AssemblyName": "web-tic-tac-toe-game",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "web_tic_tac_toe_game.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "web_tic_tac_toe_game.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 702635426,
         "Kind": "Components.Component",
         "Name": "web_tic_tac_toe_game.Shared.MainLayout",
@@ -289,35 +479,35 @@
         }
       },
       {
-        "HashCode": -1502981434,
+        "HashCode": 2121944155,
         "Kind": "Components.Component",
-        "Name": "web_tic_tac_toe_game.Shared.NavMenu",
+        "Name": "web_tic_tac_toe_game.App",
         "AssemblyName": "web-tic-tac-toe-game",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "web_tic_tac_toe_game.Shared.NavMenu"
+          "Common.TypeName": "web_tic_tac_toe_game.App"
         }
       },
       {
-        "HashCode": 158049165,
+        "HashCode": 1402975527,
         "Kind": "Components.Component",
-        "Name": "web_tic_tac_toe_game.Shared.NavMenu",
+        "Name": "web_tic_tac_toe_game.App",
         "AssemblyName": "web-tic-tac-toe-game",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "web_tic_tac_toe_game.Shared.NavMenu"
+            "TagName": "web_tic_tac_toe_game.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "web_tic_tac_toe_game.Shared.NavMenu",
+          "Common.TypeName": "web_tic_tac_toe_game.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13020,6 +13210,16 @@
     {
       "FilePath": "/Users/roberttate/Documents/programming/web-tic-tac-toe-game/App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/roberttate/Documents/programming/web-tic-tac-toe-game/Shared/Board.razor",
+      "TargetPath": "Shared\\Board.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/roberttate/Documents/programming/web-tic-tac-toe-game/Shared/Cell.razor",
+      "TargetPath": "Shared\\Cell.razor",
       "FileKind": "component"
     },
     {

@@ -90,6 +90,28 @@ using web_tic_tac_toe_game.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 18 "/Users/roberttate/Documents/programming/web-tic-tac-toe-game/Pages/Index.razor"
+       
+  Game game = new Game(Output.Web);
+  bool showWinMessage = false;
+
+  public void HandleMove(int position) {
+    game.TryMove(position);
+  }
+
+  private void Update() {
+    StateHasChanged();
+  }
+
+  private void Reset() {
+    game.Reset();
+    StateHasChanged();
+  }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

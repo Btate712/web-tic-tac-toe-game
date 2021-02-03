@@ -1,0 +1,24 @@
+<div class="board">
+  @for (int i = 1; i <= CurrentGame.board.Length; i++)
+  {
+      <Cell Spot="CurrentGame.ShowPosition(i)" 
+        Id="@(MakeId(i))" 
+        CurrentGame="CurrentGame"
+        Loc="i"
+        UpdateGame="UpdateGame"
+      />
+  }
+</div>
+
+@code 
+{
+    [Parameter] public Game CurrentGame { get; set; }
+    [Parameter] public Action UpdateGame { get; set; }
+
+    private string MakeId(int i) 
+    {
+      return $"cell-{i}";
+    }
+
+}
+

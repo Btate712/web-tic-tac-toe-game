@@ -1,0 +1,18 @@
+<div class="cell" id="@(Id)" @onclick="TryMove"><p>@(Spot)</p></div>
+
+@code
+{
+  [Parameter] public char Spot { get; set; }
+  [Parameter] public string Id { get; set; }
+  [Parameter] public Game CurrentGame { get; set; }
+  [Parameter] public int Loc { get; set; }
+  [Parameter] public Action UpdateGame { get; set; }
+
+  private void TryMove() 
+  {
+    if(CurrentGame.won) return;
+    System.Console.WriteLine($"Tried to click cell {Loc}");
+    CurrentGame.TryMove(Loc);
+    UpdateGame();
+  }
+}

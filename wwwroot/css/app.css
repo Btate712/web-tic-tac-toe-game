@@ -42,9 +42,87 @@ a, .btn-link {
     z-index: 1000;
 }
 
-    #blazor-error-ui .dismiss {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
-    }
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.board {
+    width: 200px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.cell {
+    margin: 0;
+    padding: 5px;
+    font-size: xx-large;
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-over-message {
+    color: red;
+}
+
+.cell p {
+    text-align: center;
+    margin: auto;
+}
+
+#cell-1 {
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#cell-2 {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#cell-3 {
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#cell-4 {
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+#cell-5 {
+    border: 5px solid black;
+}
+
+#cell-6 {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+#cell-7 {
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+
+#cell-8 {
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+#cell-9 {
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+button {
+    border-radius: 5px;
+}
